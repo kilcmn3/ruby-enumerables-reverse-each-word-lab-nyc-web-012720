@@ -5,6 +5,6 @@ ok_split_it = s.split
 reversed = ok_split_it.reverse
 reversed.collect do |x|
    x.reverse
-   print x
+
 end
 end
