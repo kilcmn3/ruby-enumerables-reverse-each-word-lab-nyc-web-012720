@@ -1,5 +1,5 @@
 require "pp"
 
 def reverse_each_word(sentence)
-  print %W(#{sentence})
+  sentence_literal_string = %W(#{sentence})
 end
