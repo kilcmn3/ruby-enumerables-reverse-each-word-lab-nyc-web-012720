@@ -1,7 +1,7 @@
 require "pp"
 
 def reverse_each_word(some)
- reverse_the_word = some.reverse.to_a
+ reverse_the_word = some.reverse
 reverse_the_word.collect {|x| -x.length}
 
 end
