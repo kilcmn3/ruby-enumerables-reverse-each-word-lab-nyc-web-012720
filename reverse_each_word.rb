@@ -1,6 +1,5 @@
 require "pp"
 
-def reverse_each_word(some)
-sort_some = some.split(/(,)/)
-print sort_some
+def reverse_each_word(s)
+ss.split.reverse.join(' ')
 end
