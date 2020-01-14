@@ -5,7 +5,7 @@ def reverse_each_word(some)
 sort_some = reverse_the_word.split(/(,)/)
 sort_some.sort_by do |x|
     result =  -x.length
-
+    pp result
 
 end
 end
