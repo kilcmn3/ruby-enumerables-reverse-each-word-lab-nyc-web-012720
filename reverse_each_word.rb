@@ -1,6 +1,6 @@
 require "pp"
 
 def reverse_each_word(sentence)
-print
+print %w(sentence)
 end
 end
