@@ -1,5 +1,5 @@
 require "pp"
 
 def reverse_each_word(s)
-ss.split.reverse.join(' ')
+s.split.reverse.join(' ')
 end
