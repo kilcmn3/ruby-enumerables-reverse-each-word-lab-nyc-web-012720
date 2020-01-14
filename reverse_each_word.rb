@@ -1,3 +1,4 @@
 def reverse_each_word(sentence)
-  sentence.map {|x|}
+  sentence.map do |x|
+    puts x.reverses
 end
