@@ -5,4 +5,3 @@ ok_split_it = s.split
 pp ok_split_it.reverse!
 
 end
-end
